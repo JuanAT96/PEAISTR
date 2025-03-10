@@ -1,0 +1,149 @@
+{
+    "career": "ADMINISTRACION PARA ECONOMIA POPULAR Y SOLIDARIA MICROS Y PEQUE\u00d1AS EMPRESAS",
+    "logo_path": "careers/DrkoxSY3CXxSwoXuyNSKGinrIsrIx42WokBRvVxd.png",
+    "subject": "TIC'S",
+    "subject_code": "AEPS-106",
+    "level": "PRIMERO",
+    "curricular_org_unit": "UNIDAD PROFESIONAL",
+    "academic_period": "2024 - IIP",
+    "modality": "PRESENCIAL",
+    "teacher": "docente",
+    "email": "docente@istr.com",
+    "credits": 2,
+    "totalHours": 65,
+    "contact_teacher": 32,
+    "practical_teaching": 16,
+    "self_employment": 16,
+    "practical_self_employment": 1,
+    "description_subject": "unci\u00f3n espec\u00edfic",
+    "objectives_subject": "unci\u00f3n espec\u00edfic",
+    "gral_learning_outcome": "unci\u00f3n espec\u00edfic",
+    "generic_competences": "lkefksdkjfhkjsd, dfhfdjfhjf",
+    "research_lines_career": "unci\u00f3n espec\u00edfic",
+    "description_integrative_project": "unci\u00f3n espec\u00edfic kdnakjsbdkjsa, fk lk gfm ermg e,lg em m el,f ;l,ew ,lw el,m fwke flmwrlf, wl,rf wl,, frl wfl lf lwe fl,we l,f welm fmkwee fl, we,f wel, fkwe fwel,f wle fkjw ejifwl,e flwe f",
+    "teachinglearningstrategies": "sdfsdfd, xfshdfhsaswetrtsdkljfsjdjknasdkjfnasjdknbfkljasbdjfbhbadsfjasbdjncfsnk nc knw vcn wv k ek jweknwk kjw vkjj wkjv kjwk iw vkj wvlw",
+    "totalContactTeacherHours": 5,
+    "totalPracticalTeacherHours": 5,
+    "totalSelfEmploymentHours": 5,
+    "totalPracticalSelfEmploymentHours": 5,
+    "totalHours2": 20,
+    "totalPartial1": 2,
+    "totalPartial2": 5,
+    "teacher_approval": "docente",
+    "coordinator_approval": "coordinador",
+    "vice_rector_approval": "vicerrectorado",
+    "requisitos": [
+        {
+            "prerequisites": "BIOQUIMICA",
+            "prerequisites_code": "ASF-201",
+            "corequisites": "ADMINISTRACION FINANCIERA",
+            "corequisites_code": "AF-AC1-204"
+        },
+        {
+            "prerequisites": "ADMINISTRACION HOTELERA",
+            "prerequisites_code": "T-201",
+            "corequisites": "ADMINISTRACION FINANCIERA",
+            "corequisites_code": "AF-206"
+        },
+        {
+            "prerequisites": "ADMINISTRACION FINANCIERA",
+            "prerequisites_code": "AF-AC1-204",
+            "corequisites": "Sin asignatura",
+            "corequisites_code": "Sin asignatura"
+        },
+        {
+            "prerequisites": "AUDITORIA FINANCIERA",
+            "prerequisites_code": "TSAF-505",
+            "corequisites": "ADMINISTRACION TURISTICA",
+            "corequisites_code": "TSGOT-103"
+        }
+    ],
+    "competencias_especificas": [
+        {
+            "competence_specif_learningoutcomes": "dknnkjsd",
+            "competence_specif_contribution_level": "MEDIA"
+        },
+        {
+            "competence_specif_learningoutcomes": "fghrdhd",
+            "competence_specif_contribution_level": "ALTA"
+        }
+    ],
+    "unidades_curriculares": [
+        { "unit": "UNIDAD 1", "name": "un1", "learning_outcomes": "un1" },
+        {
+            "unit": "UNIDAD 2",
+            "name": "Jkrlos1996",
+            "learning_outcomes": "srsfsegre"
+        }
+    ],
+    "contenido_ensenanza": [
+        {
+            "schedule": "Semana 1",
+            "content": "sdfsdf",
+            "contact_teacher": "efse",
+            "contact_teacher_duration": 1,
+            "practical_teaching": "sdfsdf",
+            "practical_teaching_duration": 2,
+            "self_employment": "sdfsd",
+            "self_employment_duration": 3,
+            "practical_self_employment": "frewrw",
+            "practical_self_employment_duration": 4
+        },
+        {
+            "schedule": "Semana 2",
+            "content": "sfsdfsd",
+            "contact_teacher": "dfsdfsdfs",
+            "contact_teacher_duration": 4,
+            "practical_teaching": "sdfgsdfg",
+            "practical_teaching_duration": 3,
+            "self_employment": "dsfdfdfsdfer",
+            "self_employment_duration": 2,
+            "practical_self_employment": "sdfasdfa",
+            "practical_self_employment_duration": 1
+        }
+    ],
+    "evaluaciones": [
+        {
+            "unit": "UNIDAD 1",
+            "learning_outcomes": "sfsdfsdfsdfs",
+            "type": "Formativa",
+            "criteria": "sdfsdfsdf",
+            "activity": "sfsdfsdfs",
+            "first_partial": "2.00",
+            "second_partial": null
+        },
+        {
+            "unit": "UNIDAD 2",
+            "learning_outcomes": "fgefere",
+            "type": "Formativa",
+            "criteria": "regergerg",
+            "activity": "ergergerg",
+            "first_partial": null,
+            "second_partial": "5.00"
+        }
+    ],
+    "bibliografia": [
+        {
+            "type": "Cap\u00edtulo de libro",
+            "author": "JUAN CARLOS A\u00d1APA TAPUYO",
+            "year": 1970,
+            "title": "wefwdf",
+            "editorial": "sdfdsf",
+            "format": "Digital",
+            "code": "0321321103",
+            "link": null,
+            "uplift": "dfsfsdfsfsf"
+        },
+        {
+            "type": "Informe",
+            "author": "asada",
+            "year": 1970,
+            "title": "adada",
+            "editorial": "adada",
+            "format": "Digital",
+            "code": "adadad",
+            "link": "http://127.0.0.1:8000/bibliographies",
+            "uplift": "asasasasa"
+        }
+    ]
+}

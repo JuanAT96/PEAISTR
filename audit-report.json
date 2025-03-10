@@ -1,0 +1,122 @@
+{
+    "auditReportVersion": 2,
+    "vulnerabilities": {
+        "@inertiajs/inertia": {
+            "name": "@inertiajs/inertia",
+            "severity": "moderate",
+            "isDirect": true,
+            "via": ["axios"],
+            "effects": [],
+            "range": "*",
+            "nodes": ["node_modules/@inertiajs/inertia"],
+            "fixAvailable": false
+        },
+        "axios": {
+            "name": "axios",
+            "severity": "moderate",
+            "isDirect": false,
+            "via": [
+                {
+                    "source": 1097679,
+                    "name": "axios",
+                    "dependency": "axios",
+                    "title": "Axios Cross-Site Request Forgery Vulnerability",
+                    "url": "https://github.com/advisories/GHSA-wf5p-g6vw-rhxx",
+                    "severity": "moderate",
+                    "cwe": ["CWE-352"],
+                    "cvss": {
+                        "score": 6.5,
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+                    },
+                    "range": ">=0.8.1 <0.28.0"
+                }
+            ],
+            "effects": ["@inertiajs/inertia"],
+            "range": "0.8.1 - 0.27.2",
+            "nodes": ["node_modules/@inertiajs/inertia/node_modules/axios"],
+            "fixAvailable": false
+        },
+        "esbuild": {
+            "name": "esbuild",
+            "severity": "moderate",
+            "isDirect": false,
+            "via": [
+                {
+                    "source": 1102341,
+                    "name": "esbuild",
+                    "dependency": "esbuild",
+                    "title": "esbuild enables any website to send any requests to the development server and read the response",
+                    "url": "https://github.com/advisories/GHSA-67mh-4wv8-2f99",
+                    "severity": "moderate",
+                    "cwe": ["CWE-346"],
+                    "cvss": {
+                        "score": 5.3,
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N"
+                    },
+                    "range": "<=0.24.2"
+                }
+            ],
+            "effects": ["vite"],
+            "range": "<=0.24.2",
+            "nodes": ["node_modules/esbuild"],
+            "fixAvailable": true
+        },
+        "sweetalert2": {
+            "name": "sweetalert2",
+            "severity": "low",
+            "isDirect": true,
+            "via": [
+                {
+                    "source": 1094698,
+                    "name": "sweetalert2",
+                    "dependency": "sweetalert2",
+                    "title": "sweetalert2 v11.6.14 and above contains potentially undesirable behavior",
+                    "url": "https://github.com/advisories/GHSA-mrr8-v49w-3333",
+                    "severity": "low",
+                    "cwe": ["CWE-440"],
+                    "cvss": {
+                        "score": 0,
+                        "vectorString": null
+                    },
+                    "range": ">=11.6.14"
+                }
+            ],
+            "effects": [],
+            "range": ">=11.6.14",
+            "nodes": ["node_modules/sweetalert2"],
+            "fixAvailable": {
+                "name": "sweetalert2",
+                "version": "11.6.13",
+                "isSemVerMajor": true
+            }
+        },
+        "vite": {
+            "name": "vite",
+            "severity": "moderate",
+            "isDirect": true,
+            "via": ["esbuild"],
+            "effects": [],
+            "range": "0.11.0 - 6.1.1",
+            "nodes": ["node_modules/vite"],
+            "fixAvailable": true
+        }
+    },
+    "metadata": {
+        "vulnerabilities": {
+            "info": 0,
+            "low": 1,
+            "moderate": 4,
+            "high": 0,
+            "critical": 0,
+            "total": 5
+        },
+        "dependencies": {
+            "prod": 93,
+            "dev": 234,
+            "optional": 46,
+            "peer": 0,
+            "peerOptional": 0,
+            "total": 326
+        }
+    }
+}
